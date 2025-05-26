@@ -40,7 +40,7 @@ window.generateScene = async function() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'api-key': '84fba46b577b46f58832ef36527e41d4' // 请替换成你的实际API KEY
+                'api-key': 'mykey' // 请替换成你的实际API KEY
             },
             body: JSON.stringify({
                 messages: messages,
